@@ -26,7 +26,7 @@ export const ADD_USER = gql`
 
 export const ADD_BOOK = gql`
   mutation addBook($bookId: String!) {
-    addThought(bookId: $bookId) {
+    addBook(bookId: $bookId) {
       authors
       description
       bookId
